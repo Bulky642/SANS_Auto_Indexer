@@ -23,7 +23,7 @@ OPENAI_API_KEY=<your-openai-api-key>
 PDF_PASSWORD=<your-pdf-password>
 ```
 
-Replace <your-openai-api-key> and <your-pdf-password> with your actual OpenAI API key and PDF password.
+Replace <your-openai-api-key> and <your-pdf-password> with your actual OpenAI API key and PDF password. Make sure to not have any spaces or single or double quotes surrouding your key and password in the .env file. 
 
 # OpenAI API Key
 
@@ -57,3 +57,7 @@ Please note that using a different model may result in differing results from th
 # Final Notes
 
 The scripts provided assume a specific format and content for the PDF and might not work as expected for all SANS books or other types of documents. You may need to tweak the scripts based on the specifics of your PDFs.
+
+Once the index is fully generated you can open it in excel and format appropriately to your preference. Here is an example of the final product:
+
+![Example Image](example.png)
